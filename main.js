@@ -12,7 +12,7 @@ function adivinheNumber(){
         tentativas = 0
         document.getElementById('entry_check_number').value = '';
         numEscolhido = Math.floor(Math.random()* (max - min + 1) + min)
-        alert(numEscolhido)
+        
     }
     else if (number < num_escolhido){
         document.getElementById('teste').innerHTML = '🔽Chutou baixo, tente novamente!';
