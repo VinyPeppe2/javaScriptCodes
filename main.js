@@ -2,7 +2,7 @@ let tentativas = 0;
 let max = 10
 let min = 1
 let numEscolhido = Math.floor(Math.random()* (max - min + 1) + min);
-alert(numEscolhido)
+
 function adivinheNumber(){
     tentativas ++;
     let num_escolhido = numEscolhido
