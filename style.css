@@ -20,6 +20,11 @@ h2{
     text-transform:uppercase;
     font-family:Arial, Verdana, sans-serif;
 }
+
+h3{
+    text-transform:uppercase;
+    font-family:Verdana, sans-serif, Arial;
+}
 #bcheck{
     border:none;
     background-color:orangered;
